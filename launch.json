@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "command": "npm run test",
+            "name": "Test",
+            "request": "launch",
+            "type": "node-terminal"
+        },
+        {
+            "name": "Launch localhost",
+            "reloadOnChange": {
+                "watch": ["${workspaceFolder}/**/*.jsx", "${workspaceFolder}/**/*.js", "${workspaceFolder}/**/*.json" ],
+                "ignore": ["node_modules","public",]
+            },
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "url": "YOURLOCALPATH",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Launch storybook",
+            "type": "firefox",
+            "request": "launch",
+            "reAttach": true,
+            "url": "YOURLOCALPATH/?path=/story/",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
