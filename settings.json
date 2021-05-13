@@ -1,0 +1,22 @@
+{
+    "editor.fontSize": 18,
+    "editor.formatOnSave": true,
+    "window.zoomLevel": 0,
+    "workbench.sideBar.location": "right",
+    "editor.mouseWheelZoom": true,
+    "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "npm.enableRunFromFolder": true,
+    "eslint.run": "onSave",
+    "eslint.format.enable": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "tabnine.experimentalAutoImports": true,
+    "workbench.colorTheme": "Default Dark+",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "firefox.keepProfileChanges": true,
+    "firefox.profile": "debug"
+}
